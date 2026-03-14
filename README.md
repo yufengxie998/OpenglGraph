@@ -8,7 +8,7 @@
 
 ###项目简介
 
-OpenGL Graph 是一个基于 OpenGL 接口的现代图形渲染库，旨在提供高效、易用的渲染解决方案。该库封装了复杂的 OpenGL 调用，提供简洁的 API 接口，让开发者能够快速构建高质量的图形应用程序。
+OpenGL Graph 简称OLG 是一个基于 OpenGL 接口的现代图形渲染库，旨在提供高效、易用的渲染解决方案。该库封装了复杂的 OpenGL 调用，提供简洁的 API 接口，让开发者能够快速构建高质量的图形应用程序
 
 ####主要特性
 
@@ -128,18 +128,12 @@ cmake --install .
 项目结构
 
 OpenglGraph/
-├── include/          # 公共头文件
-├── src/              # 源代码
-│   ├── Core/         # 核心渲染逻辑
-│   ├── Curves/       # 曲线绘制
-│   ├── Models/       # 模型加载
-│   ├── Primitives/   # 基础几何体
-│   ├── Materials/    # 材质系统
-│   └── Utils/        # 工具函数
-├── shaders/          # GLSL着色器
-├── assets/           # 资源文件（模型、纹理等）
-├── examples/         # 示例代码
-├── tests/            # 单元测试
-├── CMakeLists.txt    # CMake构建配置
-├── LICENSE           # BSD-3许可证
-└── README.md         # 本文档
+├── Engine/ # 核心引擎代码
+│ ├── include/ # 公共头文件
+│ └── src/ # 源代码文件
+├── AndroidEngineApp/# Android平台应用
+├── WindowsEngineApp/# Windows平台应用
+├── thirdparty/ # 第三方依赖库
+├── examples/ # 使用示例
+├── docs/ # 项目文档
+└── tests/ # 测试代码
