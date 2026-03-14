@@ -115,8 +115,8 @@ cd OpenglGraph
 # 创建构建目录
 mkdir build && cd build
 
-# 配置CMake
-cmake ..
+# 配置CMake（Windows）
+cmake -G "MinGW Makefiles" -DCMAKE_MAKE_PROGRAM=mingw32-make ..
 
 # 编译
 cmake --build . --config Release
@@ -137,3 +137,5 @@ OpenglGraph/
 ├── examples/ # 使用示例
 ├── docs/ # 项目文档
 └── tests/ # 测试代码
+问题:
+如果遇到:无法定位程序输入点 _xxxx 于动态链接库 libassimp-6.dll  ,请重新编译 assimp第三方库 库源码地址:https://github.com/assimp/assimp
