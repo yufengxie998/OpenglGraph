@@ -1,7 +1,7 @@
 #include "EngineAPI.h"
 #include <unordered_map>
 #include "ModelObject.h"
-
+// SPDX-License-Identifier: GPL-3.0-or-later
 #ifdef PLATFORM_ANDROID
 #include <android_native_app_glue.h>
 #endif

@@ -1,6 +1,6 @@
 #include "shader.h"
 
-
+// SPDX-License-Identifier: GPL-3.0-or-later
 
 #ifdef PLATFORM_ANDROID
     // 构造函数1：从字符串源码创建 - 使用 std::string 参数以区分

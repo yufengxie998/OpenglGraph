@@ -1,4 +1,4 @@
-
+// SPDX-License-Identifier: GPL-3.0-or-later
 #include "camera.h"
 #include <glm/gtc/matrix_transform.hpp>
 

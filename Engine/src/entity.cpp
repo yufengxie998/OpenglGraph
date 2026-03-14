@@ -4,7 +4,7 @@
 #include <glm/gtc/quaternion.hpp>
 #include <limits>
 #include <algorithm>
-
+// SPDX-License-Identifier: GPL-3.0-or-later
 // 初始化静态成员
 int Entity::s_nextId = 0;
 

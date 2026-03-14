@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 #include "Plane.h"
 #include <extend/logger.h>
 #include <glm/gtc/matrix_transform.hpp>

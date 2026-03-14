@@ -1,5 +1,5 @@
 #ifndef PLATFORM_ANDROID
-
+// SPDX-License-Identifier: GPL-3.0-or-later
 #include "Engine.h"
 #include "LineRenderer.h"
 #include <iostream>

@@ -4,6 +4,7 @@
 #include <glm/gtc/type_ptr.hpp>
 #include <vector>
 #include <string>
+// SPDX-License-Identifier: GPL-3.0-or-later
 // #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 

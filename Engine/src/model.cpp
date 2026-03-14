@@ -1,4 +1,5 @@
 #include "model.h"
+// SPDX-License-Identifier: GPL-3.0-or-later
     // constructor, expects a filepath to a 3D model.
     Model::Model(string const &path, bool gamma )
     {

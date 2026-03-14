@@ -5,7 +5,7 @@
 #include <vector>
 #include <cmath>
 #include <algorithm>
-
+// SPDX-License-Identifier: GPL-3.0-or-later
 #ifdef PLATFORM_ANDROID
 #include <GLES3/gl3.h>
 #else

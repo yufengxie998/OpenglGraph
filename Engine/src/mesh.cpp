@@ -1,4 +1,5 @@
 #include "mesh.h"
+// SPDX-License-Identifier: GPL-3.0-or-later
     // constructor
     Mesh::Mesh(vector<Vertex> vertices, vector<unsigned int> indices, vector<Texture> textures)
     {

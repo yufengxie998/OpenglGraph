@@ -4,7 +4,7 @@
  * 
  * 该文件实现了Transform类和FrustumMath命名空间下的
  * 各种包围体结构的成员函数。
- * 
+ * // SPDX-License-Identifier: GPL-3.0-or-later
  * @author 谢兴国   1452492081@qq.com
  * @version 1.0
  * @date 2025-10-12

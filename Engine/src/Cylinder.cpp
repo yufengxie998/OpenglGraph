@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
 #include "Cylinder.h"
 #include <extend/logger.h>
 #include <glm/gtc/matrix_transform.hpp>

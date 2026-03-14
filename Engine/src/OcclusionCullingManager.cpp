@@ -4,7 +4,7 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <algorithm>
-
+// SPDX-License-Identifier: GPL-3.0-or-later
 #ifdef PLATFORM_ANDROID
 #include <chrono>
 #else

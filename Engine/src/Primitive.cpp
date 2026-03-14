@@ -2,7 +2,7 @@
 #include <extend/logger.h>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
-
+// SPDX-License-Identifier: GPL-3.0-or-later
 Primitive::Primitive() 
  :Entity(),VAO(0), VBO(0), EBO(0), 
       color(1.0f, 1.0f, 1.0f), textureID(0), 
