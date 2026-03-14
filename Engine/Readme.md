@@ -1,4 +1,4 @@
-# OpenGL Graph Library (OpenglGraph)
+# OpenGL Render Library (OpenglGraph)
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![C++](https://img.shields.io/badge/C++-17-blue.svg)](https://isocpp.org/)
@@ -6,44 +6,43 @@
 [![CMake](https://img.shields.io/badge/CMake-3.15+-brightgreen.svg)](https://cmake.org/)
 [![行为准则](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
-###项目简介
+## ?? 项目简介
 
-OpenGL Graph 是一个基于 OpenGL 接口的现代图形渲染库，旨在提供高效、易用的渲染解决方案。该库封装了复杂的 OpenGL 调用，提供简洁的 API 接口，让开发者能够快速构建高质量的图形应用程序。
+OpenGL Render 是一个基于 OpenGL 接口的现代图形渲染库，旨在提供高效、易用的渲染解决方案。该库封装了复杂的 OpenGL 调用，提供简洁的 API 接口，让开发者能够快速构建高质量的图形应用程序。
 
-####主要特性
+### ? 主要特性
 
-- *** 线条绘制系统**
+- **?? 线条绘制系统**
   - 支持贝塞尔曲线、多项式曲线、圆等几何图形的绘制
   - 实线和虚线样式支持
   - 自定义线条样式（颜色、宽度、纹理等）
 
-- *** 3D 模型加载**
+- **?? 3D 模型加载**
   - 支持多种主流模型格式：OBJ、GLB、GLTF
   - 自动材质和纹理加载
   - 支持多网格模型
 
-- *** 基础几何体**
+- **?? 基础几何体**
   - 平面、圆柱体等基础几何体生成
   - 支持自定义细分程度
   - 法线、UV坐标自动生成
 
-- *** 双渲染管线**
+- **?? 双渲染管线**
   - **普通材质管线**：传统Phong/Blinn-Phong光照模型
   - **PBR材质管线**：基于物理的渲染，支持金属/粗糙度工作流
   - 运行时动态切换渲染管线
 
-- *** 环境渲染**
+- **?? 环境渲染**
   - 天空盒支持（立方体贴图）
   - HDR环境贴图支持
   - 支持动态环境切换
 
-- **# 场景优化**
+- **? 场景优化**
   - 视锥体剔除
-  - 遮挡剔除
   - 支持自定义剔除回调
   - 渲染批次优化
 
-###快速开始
+## ?? 快速开始
 
 #include <OpenglGraph/Renderer.h>
 #include <OpenglGraph/Model.h>
@@ -53,7 +52,7 @@ using namespace OpenglGraph;
 
 int main() {
     // 创建渲染器
-    Renderer renderer(1280, 720, "OpenGL Graph Demo");
+    Renderer renderer(1280, 720, "OpenGL Render Demo");
     
     // 切换到PBR渲染管线
     renderer.setPipeline(PipelineType::PBR);
@@ -109,7 +108,7 @@ int main() {
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yufengxie998/OpenglGraph.git
+git clone https://github.com/xiexingguo/OpenglGraph.git
 cd OpenglGraph
 
 # 创建构建目录
