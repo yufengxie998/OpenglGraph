@@ -1,0 +1,13 @@
+# IDE directories
+.idea/
+.vscode/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+
+# Build directories
+bin/
+build/
+

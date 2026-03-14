@@ -1,0 +1,9 @@
+libdir=D:/work/assimpInstaller01/lib
+includedir=D:/work/assimpInstaller01/include
+
+Name: Assimp
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 6.0.4
+Libs: -L${libdir} -lassimp
+Libs.private:  -loptimized;C:/Users/zl-xiexingguo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libz.so;debug;C:/Users/zl-xiexingguo/AppData/Local/Android/Sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libz.so
+Cflags: -I${includedir}
